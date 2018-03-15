@@ -1,0 +1,35 @@
+:root {
+  --deg: 30deg;
+}
+
+body {
+  font-family: 'Jura', sans-serif;
+}
+
+img {
+  height: 20em
+}
+
+a {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#star {
+  transform: rotate(var(--deg))
+}
+
+#credit {
+  position: absolute;
+  bottom: 0;
+}
